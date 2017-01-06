@@ -1,10 +1,11 @@
 var gulp = require('gulp'),
-    svgSprite = require('gulp-svg-sprite'),
+  svgSprite = require('gulp-svg-sprite'),
 	svgmin = require('gulp-svgmin'),
 	cheerio = require('gulp-cheerio');
 
 var settings = {
-  assetsDir: './assets/'
+  assetsDir: './assets/',
+  outDir: './dist/'
 }
 
 gulp.task('svgSpriteBuild', function () {
@@ -28,17 +29,20 @@ gulp.task('svgSpriteBuild', function () {
     }))
     // build svg sprite
     .pipe(svgSprite({
+      dest: settings.outDir,
       mode: {
         symbol: {
-          sprite: "../sprite.svg"
+          dest: "",
+          sprite: "sprite.svg"
           , render: {
-            scss: {
-              dest: './dist/sass/_sprite.scss'
+            css: {
+              dest: 'sprite.css'
               , template: settings.assetsDir + "sass/templates/_sprite_template.scss"
             }
           }
         }
       }
-    })).pipe(gulp.dest(settings.assetsDir + 'i/sprite/'));
+    })).pipe(gulp.dest(settings.outDir));
 });
 
+gulp.task("default", ["svgSpriteBuild"]);
