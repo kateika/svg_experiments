@@ -6,23 +6,89 @@
         <title>Test SVG</title>        
         <link rel="stylesheet" href="dist/css/style.css"/>
         <link rel="stylesheet" href="dist/css/font.css"/>
+        <script src="dist/svg4everybody.min.js"></script>
     </head>
     <body>
-        <?xml-stylesheet type="text/css" href="dist/css/sprite.css" ?>
-         <svg class="icon icon-GNC">
+        <script>svg4everybody(); // run it now or whenever you are ready</script>
+        <!--<object type="image/svg+xml" width="100" height="100" data="./dist/symbol/sprite.svg#GNC"></object> we need to use inline style inside svg file.
+        I don't like it and I see that approach below is cached too -->
+        <svg class="icon icon-GNC">
             <use xlink:href="./dist/symbol/sprite.svg#GNC"></use>
          </svg>
-        <div>
-            <span>Sign in with facebook</span>
-            <svg class="icon icon-facebook">
-                <use xlink:href="./dist/symbol/sprite.svg#facebook"></use>
-            </svg>
-        </div>
+        <svg class="icon icon-facebook">
+            <use xlink:href="./dist/symbol/sprite.svg#facebook"></use>
+        </svg>
         <svg class="icon icon-icon-click">
             <use xlink:href="./dist/symbol/sprite.svg#icon-click"></use>
         </svg>
+        <svg class="icon icon-carouselActive">
+            <use xlink:href="./dist/symbol/sprite.svg#carouselActive"></use>
+        </svg>
+        <svg class="icon icon-deleteCross">
+            <use xlink:href="./dist/symbol/sprite.svg#deleteCross"></use>
+        </svg>
+        <svg class="icon icon-flavour">
+            <use xlink:href="./dist/symbol/sprite.svg#flavour"></use>
+        </svg>
+        <svg class="icon icon-flavour_active">
+            <use xlink:href="./dist/symbol/sprite.svg#flavour_active"></use>
+        </svg>
+        <svg class="icon icon-flavour_hover">
+            <use xlink:href="./dist/symbol/sprite.svg#flavour_hover"></use>
+        </svg>
+        <svg class="icon icon-icon-basket">
+            <use xlink:href="./dist/symbol/sprite.svg#icon-basket"></use>
+        </svg>
+        <svg class="icon icon-icon-email">
+            <use xlink:href="./dist/symbol/sprite.svg#icon-email"></use>
+        </svg>
+        <svg class="icon icon-icon-package">
+            <use xlink:href="./dist/symbol/sprite.svg#icon-package"></use>
+        </svg>
+        <svg class="icon icon-icon-pin-white">
+            <use xlink:href="./dist/symbol/sprite.svg#icon-pin-white"></use>
+        </svg>
+        <svg class="icon icon-carousel">
+            <use xlink:href="./dist/symbol/sprite.svg#carousel"></use>
+        </svg>
+        <svg class="icon icon-btn-close-white">
+            <use xlink:href="./dist/symbol/sprite.svg#btn-close-white"></use>
+        </svg>
+        <svg class="icon icon-arrow-forward-white">
+            <use xlink:href="./dist/symbol/sprite.svg#arrow-forward-white"></use>
+        </svg>
+        <svg class="icon icon-arrow-forward">
+            <use xlink:href="./dist/symbol/sprite.svg#arrow-forward"></use>
+        </svg>
+        <svg class="icon icon-arrow-down">
+            <use xlink:href="./dist/symbol/sprite.svg#arrow-down"></use>
+        </svg>
+        <svg class="icon icon-arrow-back">
+            <use xlink:href="./dist/symbol/sprite.svg#arrow-back"></use>
+        </svg>
+
         <div class="icon-GNC"></div>
-        <div class=" icon-facebook"></div>
+        <div class="icon-facebook"></div>
         <div class="icon-icon-click"></div>
+        <div class="icon-arrow-back"></div>
+        <div class="icon-arrow-down"></div>
+        <div class="icon-arrow-forward"></div>
+        <div class="icon-arrow-forward-white"></div>
+        <div class="icon-btn-close-white"></div>
+        <div class="icon-carousel"></div>
+        <div class="icon-carouselActive"></div>
+        <div class="icon-deleteCross"></div>
+        <div class="icon-flavour">
+            <div class="path1"></div>
+            <div class="path2"></div>
+        </div>
+        <div class="icon-flavour"></div>
+        <div class="icon-flavour_active"></div>
+        <div class="icon-flavour_hover"></div>
+        <div class="icon-icon-basket"></div>
+        <div class="icon-icon-email"></div>
+        <div class="icon-icon-package"></div>
+        <div class="icon-icon-pin-white"></div>
+
     </body>
 </html>

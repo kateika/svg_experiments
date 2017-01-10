@@ -46,8 +46,8 @@ gulp.task('svgSpriteBuild', function () {
     // remove all fill, style and stroke declarations in out shapes
     .pipe(cheerio({
       run: function ($) {
-        $('[fill]').removeAttr('fill');
-        $('[stroke]').removeAttr('stroke');
+        //$('[fill]').removeAttr('fill');
+        //$('[stroke]').removeAttr('stroke');
         $('[style]').removeAttr('style');
       }
       , parserOptions: {
