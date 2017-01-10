@@ -2,21 +2,27 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Test SVG</title>        
-        <style>
-            .icon {
-                display: inline-block;
-                fill: currentColor;
-            }
-
-            .icon-GNC {
-                color: red;
-            }
-        </style>
+        <link rel="stylesheet" href="dist/css/style.css"/>
+        <link rel="stylesheet" href="dist/css/font.css"/>
     </head>
     <body>
+        <?xml-stylesheet type="text/css" href="dist/css/sprite.css" ?>
          <svg class="icon icon-GNC">
-            <use xlink:href="dist/sprite.svg#GNC"></use>
+            <use xlink:href="./dist/symbol/sprite.svg#GNC"></use>
+         </svg>
+        <div>
+            <span>Sign in with facebook</span>
+            <svg class="icon icon-facebook">
+                <use xlink:href="./dist/symbol/sprite.svg#facebook"></use>
+            </svg>
+        </div>
+        <svg class="icon icon-icon-click">
+            <use xlink:href="./dist/symbol/sprite.svg#icon-click"></use>
         </svg>
+        <div class="icon-GNC"></div>
+        <div class=" icon-facebook"></div>
+        <div class="icon-icon-click"></div>
     </body>
 </html>

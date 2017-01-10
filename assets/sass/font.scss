@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?4cnlh4');
+  src:  url('fonts/icomoon.eot?4cnlh4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4cnlh4') format('truetype'),
+    url('fonts/icomoon.woff?4cnlh4') format('woff'),
+    url('fonts/icomoon.svg?4cnlh4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-back:before {
+  content: "\e900";
+}
+.icon-arrow-down:before {
+  content: "\e901";
+}
+.icon-arrow-forward:before {
+  content: "\e902";
+}
+.icon-arrow-forward-white:before {
+  content: "\e903";
+}
+.icon-btn-close:before {
+  content: "\e904";
+}
+.icon-btn-close-white:before {
+  content: "\e905";
+}
+.icon-carousel:before {
+  content: "\e906";
+}
+.icon-carouselActive:before {
+  content: "\e907";
+}
+.icon-deleteCross:before {
+  content: "\e908";
+}
+.icon-facebook:before {
+  content: "\e909";
+}
+.icon-flavour .path1:before {
+  content: "\e90a";
+  color: rgb(21, 21, 21);
+}
+.icon-flavour .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-flavour_active .path1:before {
+  content: "\e90c";
+  color: rgb(227, 39, 39);
+}
+.icon-flavour_active .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-flavour_hover .path1:before {
+  content: "\e90e";
+  color: rgb(210, 210, 210);
+}
+.icon-flavour_hover .path2:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-GNC:before {
+  content: "\e910";
+}
+.icon-icon-basket:before {
+  content: "\e911";
+}
+.icon-icon-click:before {
+  content: "\e912";
+}
+.icon-icon-email:before {
+  content: "\e913";
+}
+.icon-icon-package:before {
+  content: "\e914";
+}
+.icon-icon-pin:before {
+  content: "\e915";
+}
+.icon-icon-pin-white:before {
+  content: "\e916";
+}
+.icon-icon-search:before {
+  content: "\e917";
+}
+.icon-icon-star:before {
+  content: "\e918";
+}
+.icon-icon-tick:before {
+  content: "\e919";
+}
+.icon-info:before {
+  content: "\e91a";
+}
+
