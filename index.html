@@ -9,6 +9,7 @@
         <script src="dist/svg4everybody.min.js"></script>
     </head>
     <body>
+        <!--@TODO: проверить на iphone ios8,9 ,windows phone,android-->
         <script>svg4everybody(); // run it now or whenever you are ready</script>
         <!--<object type="image/svg+xml" width="100" height="100" data="./dist/symbol/sprite.svg#GNC"></object> we need to use inline style inside svg file.
         I don't like it and I see that approach below is cached too -->
@@ -30,7 +31,8 @@
         <svg class="icon icon-oos_icon">
             <use xlink:href="./dist/symbol/sprite.svg#oos_icon"></use>
         </svg>
-        <svg class="icon icon-paypal_icon"> <!--Для двухцветных иконок использовать http://stackicons.com/? Но их примеры
+        <svg class="icon icon-paypal_icon"> <!--@TODO Спросить Тома, можно ли в path добавить класс и id, тогда многоцветные иконки можно красить через цсс
+        Для двухцветных иконок использовать http://stackicons.com/? Но их примеры
         не отображались даже в хроме http://stackicons.com/examples.html
         Иначе непонятно как их краситью Нормально покрасить можно только если внутри svg есть path и circle например,
         а когда два path то хер покрасишь их в разные цвета. Иконки, где два path надо покрасить отдельно собирать в отдельный спрайт,
