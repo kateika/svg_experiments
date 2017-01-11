@@ -1,0 +1,70 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor; }
+
+.icon-account_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-basket_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-card_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-heart_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-info_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-oos_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-paypal_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-phone_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-pin_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-print_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-search_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-speech_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+.icon-tick_icon {
+  font-size: 5rem;
+  width: 1em; }
+
+@keyframes changeColor {
+  0% {
+    fill: red; }
+  50% {
+    fill: yellow; }
+  100% {
+    fill: red; } }
+
+/* The element to apply the animation to */
+.icon-basket_icon {
+  fill: red;
+  animation: changeColor 4s infinite; }

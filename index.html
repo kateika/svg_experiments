@@ -12,83 +12,70 @@
         <script>svg4everybody(); // run it now or whenever you are ready</script>
         <!--<object type="image/svg+xml" width="100" height="100" data="./dist/symbol/sprite.svg#GNC"></object> we need to use inline style inside svg file.
         I don't like it and I see that approach below is cached too -->
-        <svg class="icon icon-GNC">
-            <use xlink:href="./dist/symbol/sprite.svg#GNC"></use>
+        <svg class="icon icon-account_icon">
+            <use xlink:href="./dist/symbol/sprite.svg#account_icon"></use>
          </svg>
-        <svg class="icon icon-facebook">
-            <use xlink:href="./dist/symbol/sprite.svg#facebook"></use>
+        <svg class="icon icon-basket_icon">
+            <use xlink:href="./dist/symbol/sprite.svg#basket_icon"></use>
         </svg>
-        <svg class="icon icon-icon-click">
-            <use xlink:href="./dist/symbol/sprite.svg#icon-click"></use>
+        <svg class="icon icon-card_icon">
+            <use xlink:href="./dist/symbol/sprite.svg#card_icon"></use>
         </svg>
-        <svg class="icon icon-carouselActive">
-            <use xlink:href="./dist/symbol/sprite.svg#carouselActive"></use>
+        <svg class="icon icon-heart_icon"><!--Переделать дизайнеру-->
+            <use xlink:href="./dist/symbol/sprite.svg#heart_icon"></use>
         </svg>
-        <svg class="icon icon-deleteCross">
-            <use xlink:href="./dist/symbol/sprite.svg#deleteCross"></use>
+        <svg class="icon icon-info_icon">
+            <use xlink:href="./dist/symbol/sprite.svg#info_icon"></use>
         </svg>
-        <svg class="icon icon-flavour">
-            <use xlink:href="./dist/symbol/sprite.svg#flavour"></use>
+        <svg class="icon icon-oos_icon">
+            <use xlink:href="./dist/symbol/sprite.svg#oos_icon"></use>
         </svg>
-        <svg class="icon icon-flavour_active">
-            <use xlink:href="./dist/symbol/sprite.svg#flavour_active"></use>
+        <svg class="icon icon-paypal_icon"> <!--Для двухцветных иконок использовать http://stackicons.com/? Но их примеры
+        не отображались даже в хроме http://stackicons.com/examples.html
+        Иначе непонятно как их краситью Нормально покрасить можно только если внутри svg есть path и circle например,
+        а когда два path то хер покрасишь их в разные цвета. Иконки, где два path надо покрасить отдельно собирать в отдельный спрайт,
+        где не удалять fill (который выставил дизайнер) либо загружать отдельным файлом, что скорее всего будет легче по весу,
+        если это единственная такая иконка на странице. А то придется грузить целый спрайт ради одной иконки)-->
+            <use xlink:href="./dist/symbol/sprite.svg#paypal_icon"></use>
         </svg>
-        <svg class="icon icon-flavour_hover">
-            <use xlink:href="./dist/symbol/sprite.svg#flavour_hover"></use>
+        <svg class="icon icon-phone_icon">
+            <use xlink:href="./dist/symbol/sprite.svg#phone_icon"></use>
         </svg>
-        <svg class="icon icon-icon-basket">
-            <use xlink:href="./dist/symbol/sprite.svg#icon-basket"></use>
+        <svg class="icon icon-pin_icon">
+            <use xlink:href="./dist/symbol/sprite.svg#pin_icon"></use>
         </svg>
-        <svg class="icon icon-icon-email">
-            <use xlink:href="./dist/symbol/sprite.svg#icon-email"></use>
+        <svg class="icon icon-print_icon"> <!--Переделать дизайнеру на circle,path,rect-->
+            <use xlink:href="./dist/symbol/sprite.svg#print_icon"></use>
         </svg>
-        <svg class="icon icon-icon-package">
-            <use xlink:href="./dist/symbol/sprite.svg#icon-package"></use>
+        <svg class="icon icon-search_icon"> <!--Переделать дизайнеру-->
+            <use xlink:href="./dist/symbol/sprite.svg#search_icon"></use>
         </svg>
-        <svg class="icon icon-icon-pin-white">
-            <use xlink:href="./dist/symbol/sprite.svg#icon-pin-white"></use>
+        <svg class="icon icon-speech_icon">
+            <use xlink:href="./dist/symbol/sprite.svg#speech_icon"></use>
         </svg>
-        <svg class="icon icon-carousel">
-            <use xlink:href="./dist/symbol/sprite.svg#carousel"></use>
+        <svg class="icon icon-tick_icon">
+            <use xlink:href="./dist/symbol/sprite.svg#tick_icon"></use>
         </svg>
-        <svg class="icon icon-btn-close-white">
-            <use xlink:href="./dist/symbol/sprite.svg#btn-close-white"></use>
+        <svg class="icon icon-card_icon">
+            <use xlink:href="./dist/symbol/sprite.svg#card_icon"></use>
         </svg>
-        <svg class="icon icon-arrow-forward-white">
-            <use xlink:href="./dist/symbol/sprite.svg#arrow-forward-white"></use>
-        </svg>
-        <svg class="icon icon-arrow-forward">
-            <use xlink:href="./dist/symbol/sprite.svg#arrow-forward"></use>
-        </svg>
-        <svg class="icon icon-arrow-down">
-            <use xlink:href="./dist/symbol/sprite.svg#arrow-down"></use>
-        </svg>
-        <svg class="icon icon-arrow-back">
-            <use xlink:href="./dist/symbol/sprite.svg#arrow-back"></use>
+        <svg class="icon icon-card_icon">
+            <use xlink:href="./dist/symbol/sprite.svg#card_icon"></use>
         </svg>
 
-        <div class="icon-GNC"></div>
-        <div class="icon-facebook"></div>
-        <div class="icon-icon-click"></div>
-        <div class="icon-arrow-back"></div>
-        <div class="icon-arrow-down"></div>
-        <div class="icon-arrow-forward"></div>
-        <div class="icon-arrow-forward-white"></div>
-        <div class="icon-btn-close-white"></div>
-        <div class="icon-carousel"></div>
-        <div class="icon-carouselActive"></div>
-        <div class="icon-deleteCross"></div>
-        <div class="icon-flavour">
-            <div class="path1"></div>
-            <div class="path2"></div>
-        </div>
-        <div class="icon-flavour"></div>
-        <div class="icon-flavour_active"></div>
-        <div class="icon-flavour_hover"></div>
-        <div class="icon-icon-basket"></div>
-        <div class="icon-icon-email"></div>
-        <div class="icon-icon-package"></div>
-        <div class="icon-icon-pin-white"></div>
+
+        <div class="icon-account_icon"></div>
+        <div class="icon-basket_icon"></div>
+        <div class="icon-card_icon"></div>
+        <div class="icon-heart_icon"></div>
+        <div class="icon-info_icon"></div>
+        <div class="icon-oos_icon"></div>
+        <div class="icon-phone_icon"></div>
+        <div class="icon-pin_icon"></div>
+        <div class="icon-search_icon"></div>
+        <div class="icon-tick_icon"></div>
+        <div class="icon-card_icon"></div>
+        <div class="icon-card_icon"></div>
 
     </body>
 </html>

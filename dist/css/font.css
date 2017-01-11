@@ -1,13 +1,9 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?51ctq');
-  src:  url('fonts/icomoon.eot?51ctq#iefix') format('embedded-opentype'),
-  url('fonts/icomoon.ttf?51ctq') format('truetype'),
-  url('fonts/icomoon.woff?51ctq') format('woff'),
-  url('fonts/icomoon.svg?51ctq#icomoon') format('svg');
+  src: url("fonts/icomoon.eot?51ctq");
+  src: url("fonts/icomoon.eot?51ctq#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?51ctq") format("truetype"), url("fonts/icomoon.woff?51ctq") format("woff"), url("fonts/icomoon.svg?51ctq#icomoon") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -18,91 +14,87 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
 
 .icon-account_icon:before {
-  content: "\e900";
-}
+  content: "\e900"; }
+
 .icon-basket_icon:before {
-  content: "\e901";
-}
+  content: "\e901"; }
+
 .icon-card_icon:before {
-  content: "\e902";
-}
+  content: "\e902"; }
+
 .icon-heart_icon:before {
-  content: "\e903";
-}
+  content: "\e903"; }
+
 .icon-info_icon:before {
-  content: "\e904";
-}
+  content: "\e904"; }
+
 .icon-oos_icon:before {
-  content: "\e905";
-}
+  content: "\e905"; }
+
 .icon-paypal_icon .path1:before {
   content: "\e906";
-  color: rgb(0, 99, 65);
-}
+  color: #006341; }
+
 .icon-paypal_icon .path2:before {
   content: "\e907";
   margin-left: -1em;
-  color: rgb(0, 99, 65);
-}
+  color: #006341; }
+
 .icon-paypal_icon .path3:before {
   content: "\e908";
   margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
+  color: white; }
+
 .icon-phone_icon:before {
-  content: "\e909";
-}
+  content: "\e909"; }
+
 .icon-pin_icon:before {
-  content: "\e90a";
-}
+  content: "\e90a"; }
+
 .icon-print_icon .path1:before {
   content: "\e90b";
-  color: rgb(255, 255, 255);
-}
+  color: white; }
+
 .icon-print_icon .path2:before {
   content: "\e90c";
   margin-left: -1em;
-  color: rgb(0, 99, 65);
-}
+  color: #006341; }
+
 .icon-print_icon .path3:before {
   content: "\e90d";
   margin-left: -1em;
-  color: rgb(0, 99, 65);
-}
+  color: #006341; }
+
 .icon-print_icon .path4:before {
   content: "\e90e";
   margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
+  color: white; }
+
 .icon-print_icon .path5:before {
   content: "\e90f";
   margin-left: -1em;
-  color: rgb(0, 99, 65);
-}
+  color: #006341; }
+
 .icon-print_icon .path6:before {
   content: "\e910";
   margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
+  color: white; }
+
 .icon-print_icon .path7:before {
   content: "\e911";
   margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.icon-search_icon:before {
-  content: "\e912";
-}
-.icon-speech_icon:before {
-  content: "\e913";
-}
-.icon-tick_icon:before {
-  content: "\e914";
-}
+  color: white; }
 
+.icon-search_icon:before {
+  content: "\e912"; }
+
+.icon-speech_icon:before {
+  content: "\e913"; }
+
+.icon-tick_icon:before {
+  content: "\e914"; }

@@ -1,28 +1,13 @@
 @import "sprite";
-.icon {
-  fill: currentColor;
-}
-body {
-  color: #333;
+
+@keyframes changeColor {
+  0% {fill: red;}
+  50% {fill: yellow;}
+  100% {fill: red;}
 }
 
-div {
-  color: yellowgreen;
-}
-
-span {
-  vertical-align: middle;
-}
-
-.icon {
-  vertical-align: middle;
-}
-
-.icon-GNC {
-  color: red;
-}
-
-.icon-flavour .path2:before {
-  margin-left: 0!important;
-  color: red!important;
+/* The element to apply the animation to */
+.icon-basket_icon {
+  fill: red;
+  animation: changeColor 4s infinite;
 }
